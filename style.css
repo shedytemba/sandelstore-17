@@ -1,0 +1,24 @@
+body { font-family: Arial, sans-serif; text-align: center; background: #bb5c5c; }
+.product-grid { display: flex; justify-content: center; gap: 20px; padding: 20px; }
+.card { background: rgb(136, 55, 55); padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 200px; }
+.card img { width: 100%; height: 150px; object-fit: cover; border-radius: 5px; }
+button { background: #28a745; color: rgb(209, 90, 90); border: none; padding: 10px; cursor: pointer; border-radius: 5px; }
+button:hover { background: #218838; }
+.contact-section { margin-top: 40px; padding: 20px; background: white; border-top: 2px solid #ddd; }
+input, textarea { width: 300px; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 4px; }
+button[type="submit"] { background: #007bff; }
+button[type="submit"]:hover { background: #0069d9; }
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25d366; /* Rangi ya WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-whatsapp:hover {
+    background-color: #128c7e;
+}
